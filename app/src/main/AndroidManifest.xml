@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.imagepager">
-    <!--android:name="ook.yzx.tinker.Application"-->
 
     <application
+        android:name="ook.yzx.tinker.Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -27,6 +27,7 @@
         <activity
             android:name=".Activity.BehaviorActivity"
             android:theme="@style/PagerTheme" />
+        <activity android:name=".Activity.TinkerTestActivity"></activity>
     </application>
 
 </manifest>

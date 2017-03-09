@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.bt5).setOnClickListener(this);
         findViewById(R.id.bt6).setOnClickListener(this);
         findViewById(R.id.bt7).setOnClickListener(this);
+        findViewById(R.id.bt8).setOnClickListener(this);
     }
 
     @Override
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt7:
                 j(BehaviorActivity.class);
+                break;
+            case R.id.bt8:
+                j(TinkerTestActivity.class);
                 break;
         }
     }
